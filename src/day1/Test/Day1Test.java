@@ -3,6 +3,7 @@ package day1.Test;
 public class Day1Test {
     public static void main(String[] args) {
         /* 1. Buat logic untuk mengecek apakah sebuah bilangan adalah prima (1 nilai) */
+        System.out.println("===== SOAL 1 =====");
         int bilangan ;
         int[] numbers = {1,2,3,4,5,6};
         for (int i = 0; i < numbers.length; i++) {
@@ -19,6 +20,8 @@ public class Day1Test {
 
 
         /* 2. Buat Logic untuk mencari nilai terbesar dan terkecil dari sebuah array pake math method */
+        System.out.println("===== SOAL 2 =====");
+
         int[] angka = {1,2,3,4,5,6,7,8,9,10};
         int max = angka[0];
         int min = angka[0];
@@ -33,6 +36,8 @@ public class Day1Test {
 
     /* 3. Buat logic untuk mencari jumlah elemen yang nilainya genap jumlah elemen yang
         nilainya ganjil dari array angka*/
+        System.out.println("===== SOAL 3 =====");
+
         int number = angka[0];
         System.out.println("angka genap :");
 
@@ -49,10 +54,14 @@ public class Day1Test {
         }
 
         /* 4. Buat logic untuk menghitung jumlah karakter dalam sebuah string*/
+        System.out.println("===== SOAL 4 =====");
+
         String kata = "aku sedang belajar java";
         System.out.println("jumlah karakter : " + kata.length());
 
         /* 5. Buat logic untuk menghitung jumlah huruf vokal dalam string 'kata'*/
+        System.out.println("===== SOAL 5 =====");
+
         int vocal = 0;
         char ch;
         for (int i = 0; i < kata.length(); i++) {
@@ -68,6 +77,8 @@ public class Day1Test {
         /* 6. Buat array yang terdiri dari 5 siswa, masing masing punya 4 nilai : ujian, absen, kuis
          * kalkulasi nilai berdasarkan rata2 nilai dari 3 nilai tersebut
          * lalu tentukan grade mereka berdasarkan nilai rata rata menggunakan logic if-else dan enum*/
+        System.out.println("===== SOAL 6 =====");
+
         int[][] mahasiswa = {
                 {10,10,9},
                 {6,9,9},
