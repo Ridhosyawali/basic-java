@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.node.*;
 
 import java.sql.*;
 import java.time.LocalDate;
-import java.time.ZonedDateTime;
 import java.util.Scanner;
 
 
@@ -19,7 +18,7 @@ public class DemoCRUD {
     public void getData(){
         try {
             //DriverManager.getConnection digunakan untuk menghubungkan ke database
-            Connection connection= DriverManager.getConnection(url, username, password);
+            Connection connection = DriverManager.getConnection(url, username, password);
             //panggil objek Statement untuk mengeksekusi query
             Statement statement = connection.createStatement();
             // panggil ResultSet unttuk menampung hasil eksekusi query
